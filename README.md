@@ -131,11 +131,19 @@ Step 3 — Generate structured compliance report:
 ```
 oss-license-compliance/
 │
-├── SKILL.md      # ← The skill prompt (load this into Claude)
-└── README.md     # This file
+├── SKILL.md                        # ← The skill prompt (load this into Claude)
+├── README.md                       # This file
+│
+├── examples/
+│   ├── saas-agpl-example.md        # AGPL in a SaaS product walkthrough
+│   └── multi-library-example.md    # Compatibility matrix example
+│
+├── docs/
+│   └── saas-vs-distribution.md     # GPL vs AGPL for SaaS explained
+│
+└── tests/
+    └── sample-queries.md           # Test queries + expected output structure
 ```
-
----
 
 ## 🧩 Edge Cases Handled
 
