@@ -169,18 +169,6 @@ This skill provides **informational guidance**, not legal advice. For high-stake
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-Areas where help is especially appreciated:
-- Adding examples for more obscure licenses (CDDL, EUPL, SSPL, BSL)
-- Jurisdiction-specific notes (EU, India, US)
-- Integration guides (GitHub Actions, pre-commit hooks, SBOM tooling)
-- Translations
-
----
-
 ## 📜 License
 
 This skill definition (prompt + documentation) is released under the [MIT License](LICENSE).
