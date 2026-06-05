@@ -131,27 +131,8 @@ Step 3 — Generate structured compliance report:
 ```
 oss-license-compliance/
 │
-├── SKILL.md                        # ← The skill prompt (load this into Claude)
-│
-├── README.md                       # This file
-├── CONTRIBUTING.md                 # How to contribute
-├── LICENSE                         # MIT
-├── CHANGELOG.md                    # Version history
-│
-├── examples/
-│   ├── saas-agpl-example.md        # AGPL in a SaaS product walkthrough
-│   ├── commercial-gpl-example.md   # GPL in a commercial app walkthrough
-│   ├── multi-library-example.md    # Compatibility matrix example
-│   └── no-license-example.md       # "No license file" edge case
-│
-├── docs/
-│   ├── license-categories.md       # Deep dive: license categories explained
-│   ├── copyleft-triggers.md        # When does copyleft actually trigger?
-│   ├── saas-vs-distribution.md     # GPL vs AGPL for SaaS explained
-│   └── transitive-deps.md          # Handling npm/pip transitive dependencies
-│
-└── tests/
-    └── sample-queries.md           # Test queries + expected output structure
+├── SKILL.md      # ← The skill prompt (load this into Claude)
+└── README.md     # This file
 ```
 
 ---
